@@ -41,7 +41,7 @@ void loop()
   ask_command(at_pin); 
 }
 
-void ask_command(const char *command, byte length)
+void ask_command(const char *command)
 {
   Serial.print("We ask: \t");
   delay(DELAY);
